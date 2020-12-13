@@ -1,6 +1,6 @@
 const path = require("path");
 
-exports.S3Upload = (req, res, next) => {
+exports.getUploadResult = (req, res, next) => {
   res.sendFile(path.join(__dirname, "../views", "upload-result.html"));
 };
 
